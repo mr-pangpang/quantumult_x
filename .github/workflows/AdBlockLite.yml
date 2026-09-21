@@ -15,7 +15,7 @@ jobs:
 
       - name: 用wget模拟浏览器下载AdBlockLite（解决403拦截）
         run: |
-          wget -O AdBlockLite "https://whatshub.top/rule/ADLite.list" \
+          wget -O AdBlockLite "https://yfamilys.com/rule/ADLite.list" \
           --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" \
           --header="Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8" \
           --header="Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3"
